@@ -1,12 +1,12 @@
 name: Django-app workflow
-​
+
 on: [push]
-​
+
 jobs:
   tests:
     # «Раннер» — создание изолированного окружения с последней версией Ubuntu 
     runs-on: ubuntu-latest
-​
+
     steps:
     # Запуск actions checkout — готового скрипта 
     # для клонирования репозитория
@@ -18,7 +18,7 @@ jobs:
       with:
         # Выбор версии Python
         python-version: 3.7
-​
+
     - name: Install dependencies
       run: | 
         # обновление pip
@@ -28,7 +28,7 @@ jobs:
         # установка зависимостей
         cd api_yamdb/
         pip install -r requirements.txt 
-​
+
     - name: Test with flake8 and pytest
       run: |
         # запуск проверки проекта по flake8
