@@ -1,5 +1,4 @@
 from random import choice
-
 from api_yamdb.settings import ROLES
 from django.contrib.auth.models import AbstractUser
 from django.core.validators import MaxValueValidator, MinValueValidator
