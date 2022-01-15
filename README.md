@@ -3,8 +3,7 @@ yamdb_final
 [![Django-app workflow](https://github.com/SergKuzora/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/SergKuzora/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 Проект создан Кузора Сергеем в процессе обучения в Яндекс.Практикуме на профессию python developer
-
-Проект доступен по адресу: sergey-kuzora.ru
+Проект доступен по адресу: http://51.250.30.109/
 
 ### Как запустить проект автоматически:
 
